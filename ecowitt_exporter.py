@@ -12,7 +12,7 @@ app = Flask(__name__)
 debug = os.environ.get('DEBUG', 'no') == 'yes'
 temperature_unit = os.environ.get('TEMPERATURE_UNIT', 'c')
 pressure_unit = os.environ.get('PRESSURE_UNIT', 'hpa')
-wind_unit = os.environ.get('WIND_UNIT', 'kmh')
+wind_unit = os.environ.get('WIND_UNIT', 'ms')
 rain_unit = os.environ.get('RAIN_UNIT', 'mm')
 distance_unit = os.environ.get('DISTANCE_UNIT', 'km')
 irradiance_unit = os.environ.get('IRRADIANCE_UNIT', 'wm2')
